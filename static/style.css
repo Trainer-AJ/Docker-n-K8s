@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+}
+
+form {
+    display: inline-block;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #3498db; /* Set your desired button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #2ecc71; /* Set your desired greeting text color */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
