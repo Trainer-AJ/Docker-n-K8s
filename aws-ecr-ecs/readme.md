@@ -1,3 +1,10 @@
+##
+- push to ECR
+- Create Fargate Cluster
+- create task, put ECR URI
+- CLICK 0N ACTIONS ==> RUN TASK
+- COPY IP => SHOWS ON BROWSER
+  
 ```sh
 Nginx on Ubuntu 
 
